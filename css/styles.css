@@ -1,0 +1,68 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+}
+
+@font-face {
+  font-family: Blessed Day;
+  src: url(https://www.ffonts.net/Blessed-Day.font.download#);
+}
+
+
+#bg1 {
+    background-image: url("../img/Bg.png");
+    background-repeat: no-repeat;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-family: Blessed Day, sans-serif;
+    font-size: 4em; 
+    padding-left: 200px;
+}
+
+.navbar-brand:hover {
+    color: #ffffff;
+}
+
+.navbar-nav {
+    padding-right: 200px;
+    margin-left: auto;
+}
+
+.nav-item .nav-link {
+    color: #ffffff;
+    padding-bottom: 3px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    
+    
+}
+.nav-item:hover {
+    color: #ffffff;
+    border-bottom: 3px solid #33cc99;   
+}
+
+.nav-item.active {
+    color: #ffffff;
+    border-bottom: 3px solid #33cc99;
+}
+
+.nav-item:active {
+    color: #ffffff;
+    border-bottom: 3px solid #33cc99;    
+}
+
+.nav-link.bolder {
+    font-weight: 700;
+}
+
+
+
+
+
+
+
