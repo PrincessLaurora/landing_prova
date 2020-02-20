@@ -68,6 +68,7 @@ h5 {
 h6 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+    /* Attenzione il px in teoria è indivisibile :) */
     font-size: 15.5px;
     line-height: 25px;
     
