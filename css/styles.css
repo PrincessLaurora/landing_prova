@@ -4,7 +4,11 @@ html {
 
 body {
     background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
 }
+
 
 @font-face {
   font-family: Blessed Day;
@@ -15,25 +19,25 @@ body {
 #bg1 {
     background-image: url("../img/Bg.png");
     background-repeat: no-repeat;
-}
+    height: 100vh;
+    } 
 
+.navbar.navbar-expand-lg {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+    
 .navbar-brand {
     color: #ffffff;
     font-family: 'Blessed Day', sans-serif;
     /* Attenzione all'em come unità di misura, va usato con molta cautela. E' più comodo e meno rischioso usare il rem */
-    font-size: 4em; 
+    font-size: 4rem; 
+    }
     /* evitare di posizionare elementi usando il padding
     se si utilizzano padding elevati molto spesso non è per fare una buona cosa  */
-    padding-left: 200px;
-}
 
 .navbar-brand:hover {
     color: #ffffff;
-}
-
-.navbar-nav {
-    padding-right: 200px;
-    margin-left: auto;
 }
 
 .nav-item .nav-link {
@@ -51,12 +55,91 @@ body {
     border-bottom: 3px solid #33cc99;   
 }
 
-
 .nav-link.bolder {
     font-weight: 700;
 }
 
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
 
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15.5px;
+    line-height: 25px;
+    
+}
+
+.hdr {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.screen {
+    width: 50%;
+    float: left;
+    padding-right: 40px;
+}
+
+.btn-colour1 {
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
+
+.btn-colour2 {
+    background-color: #3498db;
+    border-color: #3498db;
+    margin-left: 15px;
+}
+
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #ffffff;
+    width: 180px;
+    padding: 15px;
+
+}
+.btn-colour1:hover,
+.btn-colour1:active,
+.btn-colour1.active {
+
+  background: #19b495;
+  color: #ffffff;
+  border-color: #19b495;  
+  outline: none;
+  box-shadow: none; 
+}
+
+.btn-colour2:hover,
+.btn-colour2:active,
+.btn-colour2.active {
+
+  background: #318cc9;
+  color: #ffffff;
+  border-color: #318cc9; 
+  outline: none;
+  box-shadow: none;  
+}
+
+.or {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: #4f6173;
+    text-align: center;
+    margin-left: -10px;
+    margin-top: 60px;
+    position: absolute;
+    
+   
+}
 
 
 
