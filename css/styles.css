@@ -11,7 +11,7 @@ body {
   src: url(https://www.ffonts.net/Blessed-Day.font.download#);
 }
 
-
+/* prendi l'abitudine di creare i file tutti in minuscolo, anche se è improbabile potrebbero capitare problemi di case sensitive */
 #bg1 {
     background-image: url("../img/Bg.png");
     background-repeat: no-repeat;
@@ -19,8 +19,11 @@ body {
 
 .navbar-brand {
     color: #ffffff;
-    font-family: Blessed Day, sans-serif;
+    font-family: 'Blessed Day', sans-serif;
+    /* Attenzione all'em come unità di misura, va usato con molta cautela. E' più comodo e meno rischioso usare il rem */
     font-size: 4em; 
+    /* evitare di posizionare elementi usando il padding
+    se si utilizzano padding elevati molto spesso non è per fare una buona cosa  */
     padding-left: 200px;
 }
 
@@ -38,23 +41,16 @@ body {
     padding-bottom: 3px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    
-    
 }
-.nav-item:hover {
+
+/* Così si risparmia :) */
+.nav-item:hover,
+.nav-item.active,
+.nav-item:active {
     color: #ffffff;
     border-bottom: 3px solid #33cc99;   
 }
 
-.nav-item.active {
-    color: #ffffff;
-    border-bottom: 3px solid #33cc99;
-}
-
-.nav-item:active {
-    color: #ffffff;
-    border-bottom: 3px solid #33cc99;    
-}
 
 .nav-link.bolder {
     font-weight: 700;
