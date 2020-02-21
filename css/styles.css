@@ -7,6 +7,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -19,14 +20,14 @@ body {
 #bg1 {
     background-image: url("../img/Bg.png");
     background-repeat: no-repeat;
-    height: 100vh;
-    } 
+    background-size: cover;
+} 
 
 .navbar.navbar-expand-lg {
     margin-left: 10%;
     margin-right: 10%;
-}
-    
+} 
+
 .navbar-brand {
     color: #ffffff;
     font-family: 'Blessed Day', sans-serif;
@@ -43,7 +44,6 @@ body {
 .nav-item .nav-link {
     color: #ffffff;
     padding-bottom: 3px;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
 
@@ -59,24 +59,22 @@ body {
     font-weight: 700;
 }
 
-h5 {
-    font-family: 'Open Sans', sans-serif;
+h4 {
     font-weight: 400;
     font-size: 25px;
 }
 
 h6 {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     /* Attenzione il px in teoria è indivisibile :) */
-    font-size: 15.5px;
+    font-size: 15px;
     line-height: 25px;
     
 }
 
 .hdr {
     margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 13%;
 }
 
 .screen {
@@ -97,12 +95,11 @@ h6 {
 }
 
 .btn {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 15px;
     color: #ffffff;
-    width: 180px;
-    padding: 15px;
+    width: 140px;
+    padding: 16px;
 
 }
 .btn-colour1:hover,
@@ -134,14 +131,42 @@ h6 {
     border-radius: 50%;
     background-color: white;
     color: #4f6173;
+    padding: 2px;
     text-align: center;
     margin-left: -10px;
     margin-top: 60px;
-    position: absolute;
-    
-   
+    position: absolute;  
 }
 
+#about {
+    background-color: white;
+    color: #4f6173;
+    padding-top: 10%;
+}
+
+.abt { 
+    margin-left: 12%;
+    margin-right: 10%;
+
+}
+p {
+    font-weight: 400;
+    font-size: 15px;
+    text-align: left;    
+}
+
+
+.stats1 {
+   width: 43%;
+   margin-left: 20%;
+}
+
+.stats2 {
+    width: 30%;
+    padding-left: 5%;
+    padding-top: 17%;
+
+}
 
 
 
