@@ -206,5 +206,33 @@ h4 {
     width: 30%;
 }
 
+#features {
+    background-image: url(../img/Bg2.png);
+    color: #4f6173;
+    background-repeat: no-repeat;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 
+.fts {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.lorem {
+    color: white;
+}
+
+.cons {
+    color: white;
+    font-weight: 300;
+    padding-bottom: 10%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px;
+    height: 100px;
+}
 
