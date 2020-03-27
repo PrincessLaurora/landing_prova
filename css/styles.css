@@ -62,6 +62,7 @@ body {
 h4 {
     font-weight: 400;
     font-size: 25px;
+    color: white;
 }
 
 .iuctus {
@@ -145,14 +146,15 @@ h4 {
 }
 
 .abt { 
-    margin-left: 12%;
+    margin-left: 10%;
     margin-right: 10%;
-    line-height: 25px;;
+    
 }
 .sed {
     font-weight: 400;
     font-size: 15px;
-    text-align: left;    
+    text-align: left; 
+    line-height: 25px;   
 }
 
 
@@ -177,13 +179,9 @@ h4 {
     padding-bottom: 5%;
 }
 
-.srv {
-    margin-left: 10%;
-    margin-right: 10%;
-}
 
 .service {
-    font-size: 300;
+    font-weight: 300;
     justify-content: center;
     text-align: center;
     font-size: 12px;
@@ -214,16 +212,6 @@ h4 {
     padding-bottom: 5%;
 }
 
-.fts {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-
-.lorem {
-    color: white;
-}
-
 .cons {
     color: white;
     font-weight: 300;
@@ -235,4 +223,40 @@ h4 {
     width: 50px;
     height: 100px;
 }
+
+#testimonials {
+    background-color: white;
+    color: #4f6173;
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+}
+
+.lightweight{
+    font-weight: 300;
+}
+
+.esagono {
+    float: left;
+    padding-right: 4%;
+}
+
+.testim {
+    font-weight: 300;
+    font-size: 12px;
+    padding-top: 3%;
+    text-align: justify;
+}
+
+.excep {
+    margin-top: 5%;
+}
+
+.hexa {
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
 
